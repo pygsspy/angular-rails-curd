@@ -1,0 +1,15 @@
+<h1>Hello Update Page</h1>
+
+  <div class="span5">
+    <form ng-submit="update(note)" class='well'>
+    <h3>Notes</h3>
+      <fieldset>
+        <input ng-model='note.title' type="text" class="input-xlarge"  value="{{note.title}}">
+        <textarea rows='10' ng-model='note.body' type="text" class="input-xlarge"  required>{{note.body}}
+        </textarea>
+        <br/>
+        <button type="submit" class="btn">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  <a href="#/" title="List" class="pull-right">List</a>
