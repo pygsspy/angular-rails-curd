@@ -156,3 +156,7 @@ when restricting access to the cookies.
 Check
 [ApplicationController](http://github.com/EmmanuelOga/simple-angular-rails-app/blob/master/app/controllers/application_controller.rb)
 for some notes on the XSRF protection.
+
+## 来自
+本文来自[simple-angular-rails-app](https://github.com/EmmanuelOga/simple-angular-rails-app)
+增加了编辑和展示单条明细
